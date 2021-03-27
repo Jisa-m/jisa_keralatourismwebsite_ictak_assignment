@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/stylemain.css">
+</head>
+<body>
+    <form action="#" class="login" onsubmit="return emailcheck()" onsubmit="return pwdcheck()" onsubmit="return validate()">
+        <h2>Login</h2>
+        <br>
+        <div class="login-cont">
+            <label>Email-id</label>
+            <br>
+            <input type="text" placeholder="Email-id" id="email_login">
+            <label for="error" id="emailerror_login"></label>
+        </div>
+        
+        <br>
+        <div class="login-cont">
+            <label>Password</label>
+            <br>
+            <input type="Password" placeholder="Password" id="pwd_login">
+            <label for="error" id="pwderror_login"></label>
+        </div>
+        <br>
+        <div>
+            <input id="submit" type="submit" value="Log in">
+        </div>
+        <br>
+        <div class="login-misc">
+            <h5>Need an account</h5>
+            <a href="signup.html" >Sign up</a>             
+        </div>
+    </form>
+    <script src=form2.js></script>
+    
+   
+
+    
+</body>
+</html>
